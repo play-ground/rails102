@@ -13,4 +13,29 @@
 
 # Ignore all logfiles and tempfiles.
 /log/*.log
+/log/*.log.json
+
 /tmp
+# Ignore config
+/config/database.yml
+/config/redis.yml
+/config/redis.development.conf
+
+/node_modules
+
+/public/assets
+/cached_repos/
+.gitkeep
+/coverage/
+
+# Ignore editor files
+*.sw[oap]
+
+# Ignore tags/ctags file
+/tags
+
+# Ignore temp devel files
+/routes.txt
+
+# .bak files
+*.bak
